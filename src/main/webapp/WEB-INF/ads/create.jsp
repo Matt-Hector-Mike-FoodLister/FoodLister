@@ -4,21 +4,28 @@
     <jsp:include page="/WEB-INF/partials/head.jsp">
         <jsp:param name="title" value="Create a new Ad" />
     </jsp:include>
+
+ <link rel="stylesheet" href="/foody.css" type="text/css">
+    <script defer type="text/javascript" src="/Foody.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Create a new Ad</h1>
-        <form action="/ads/create" method="post">
-            <div class="form-group">
-                <label for="title">Title</label>
-                <input id="title" name="title" class="form-control" type="text">
-            </div>
-            <div class="form-group">
-                <label for="description">Description</label>
-                <textarea id="description" name="description" class="form-control" type="text"></textarea>
-            </div>
-            <input type="submit" class="btn btn-block btn-primary">
-        </form>
-    </div>
+<div>
+    <h2>Your Ingredients: </h2>
+    <h2 id="lists"></h2>
+    <p>${ad.description}</p>
+    <p id="nutrition"> </p>
+   <div id="pics">
+
+
+   </div>
+    <form>
+
+        <input type="text" name="ingredients" id="ingred" list="ingredients">
+        <input type="button" value="submit" id="submit">
+    </form>
+    <datalist id="ingredients">
+
+    </datalist>
+</div>
 </body>
 </html>

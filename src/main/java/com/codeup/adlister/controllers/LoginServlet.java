@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("/login");
             return;
         }
-        System.out.println("345");
+
 //        boolean validAttempt = password.equals(user.getPassword());
         boolean check = BCrypt.checkpw(password, user.getPassword());
         if (check) {
