@@ -5,10 +5,13 @@
     <jsp:include page="/WEB-INF/partials/head.jsp">
         <jsp:param name="title" value="Welcome to my site!" />
     </jsp:include>
+
+
 </head>
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
+<<<<<<< HEAD
     <div class="container text-center" style="height: auto;">
         <h1 class="text-">Welcome to the FoodLister Meal Planner!</h1>
         <p>Plan or keep track of your daily food intake.  Here are your options: </p>
@@ -194,5 +197,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+=======
+
+>>>>>>> bbc22317ebe70ec74d0068549c3668b4d07f44d6
 </body>
 </html>
