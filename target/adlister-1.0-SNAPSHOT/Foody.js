@@ -1,8 +1,12 @@
 "use strict"
-let key =  "83cd305e15604385bcd519a7f1cceb77";
+let key =  "87ed2c6f01764209ad3d9dbbcb12efc8";
 let keys = "";
 let ingredient;
 let ingredArray = [];
+
+
+
+
 function nutrients() {
 
 
@@ -36,6 +40,7 @@ document.getElementById("submit").addEventListener("click", function () {
         document.getElementById("lists").innerText = ingredArray.toString()
         search = "";
         keys = "";
+        document.getElementById("nutrition").innerText = ""
         recipesByIngredients()
     }
 
@@ -59,48 +64,80 @@ function recipesByIngredients() {
             let num = response.results.length;
             // let img = document.createElement("img");
             for (let i = 0; i < num; i++) {
-                let btn = document.createElement("button")
+
                 let img = document.createElement("img");
-                let div = document.createElement("div");
                 let p = document.createElement("p");
                 p.innerText = response.results[i].title
                 console.log(response.results[i].title);
                 img.src = response.baseUri + response.results[i].image;
                 img.style.width = "200px";
                 img.style.height = "200px";
-                btn.id = response.results[i].id;
-                btn.className = "btn"
-                btn.name = "btn"
-                div.className = "m-auto text-wrap"
+                let div = document.createElement("div");
+                let submit = document.createElement("button")
+                let add = document.createElement("input")
+
+                div.className = "col"
+
+                p.className = "text-primary"
+                submit.className = "btn1"
+                submit.id = response.results[i].id
+                add.className = "add"
+                add.name = "add"
+                add.type = "button"
+                add.value = "Add"
+                add.setAttribute("idd", response.results[i].id)
+                add.setAttribute("title2", response.results[i].title)
+                let url =  response.baseUri + response.results[i].image
+                add.setAttribute("image", url)
+                submit.innerHTML = "Nutrition"
 
 
-                btn.append(img);
-
-                btn.style.wordBreak="break-word"
                 div.append(p)
+                div.append(img)
+                div.append(submit)
+                div.append(add)
 
-                div.append(btn)
+                console.log(response.results[i].id);
+
                 document.getElementById("pics").append(div)
                 document.getElementById("pics").style.wordBreak="break-word";
 
 
             }
-            let int = document.querySelectorAll(".btn");
+
+
+
+            let int = document.querySelectorAll(".btn1");
             console.log(int);
 
             int.forEach(x => {
                 x.addEventListener("click", function (e) {
-                    e
-                    console.log(e.target);
+                    e.preventDefault()
+                    document.getElementById("nutrition").innerText = ""
 
-                    console.log(e.target.src);
-                    ingredArray = [];
-                    nuts(e.path[1].id)
+
+
+                    nuts(e.target.id)
                     // location.assign("http://localhost:8080/hello")
                 })
             })
 
+            document.querySelectorAll(".add").forEach((x) => {
 
+                x.addEventListener("click", function (e) {
+                    let hidden = document.createElement("input")
+                    hidden.type = "hidden"
+                    hidden.name = "hidden"
+                    hidden.id = "hidden"
+                    document.getElementById("form").append(hidden)
+                    hidden.value = x.getAttribute("idd")+ "<"+ x.getAttribute("title2") +"<"+x.getAttribute("image")
+
+
+                    console.log(hidden.value);
+                    document.getElementById("form").submit()
+
+                })
+            })
 
 
         })
