@@ -2,6 +2,8 @@ package com.codeup.adlister.models;
 
 public class Ad {
     private long id;
+
+    private long idd;
     private long userId;
     private String title;
     private String description;
@@ -13,10 +15,27 @@ public class Ad {
         this.description = description;
     }
 
-    public Ad(long userId, String title, String description) {
+    public Ad(long userId, String title, String description, long idd) {
         this.userId = userId;
         this.title = title;
         this.description = description;
+        this.idd = idd;
+    }
+
+    public Ad(long id, long userId, String title, String description, long idd) {
+        this.id = id;
+        this.idd = idd;
+        this.userId = userId;
+        this.title = title;
+        this.description = description;
+    }
+
+    public long getIdd() {
+        return idd;
+    }
+
+    public void setIdd(long idd) {
+        this.idd = idd;
     }
 
     public long getId() {
