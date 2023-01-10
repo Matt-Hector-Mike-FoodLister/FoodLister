@@ -11,7 +11,7 @@
 <body>
     <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
-<<<<<<< HEAD
+
     <div class="container text-center" style="height: auto;">
         <h1 class="text-">Welcome to the FoodLister Meal Planner!</h1>
         <p>Plan or keep track of your daily food intake.  Here are your options: </p>
