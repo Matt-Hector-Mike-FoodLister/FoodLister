@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-expand-lg sticky-top shadow-lg" style="background-color: #8AD879">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Food Lister</a>
@@ -12,7 +11,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        The Menu
+                        Your Menu
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Random</a></li>
@@ -22,14 +21,13 @@
                         <li><a class="dropdown-item" href="#">Vegan</a></li>
                         <li><a class="dropdown-item" href="#">Low Fat</a></li>
                         <li><a class="dropdown-item" href="#">Gluten Free</a></li>
-
                     </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">Search</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="#">Logout</a>
                 </li>
             </ul>
         </div>
