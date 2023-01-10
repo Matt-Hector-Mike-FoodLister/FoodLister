@@ -13,8 +13,7 @@
 
 
     <div class="container text-center" style="height: auto;">
-        <h1 class="text-center pt-3">Welcome to the FoodLister Meal Planner!</h1>
-        <p>Plan or keep track of your daily food intake.  Here are your options: </p>
+        <h1 class="text-center pt-5">Welcome to the FoodLister Meal Planner!</h1>
 
         <!-- Options Section -->
         <div class="row d-flex justify-content-center">
@@ -25,6 +24,8 @@
                         </svg>
                     </h5>
                     <p class="card-text">Register to store all your favorite meals!</p>
+                </div>
+                <div class="card-footer border border-0" style="background-color: white;">
                     <a href="#" class="underline">Create Profile</a>
                 </div>
             </div>
@@ -36,6 +37,8 @@
                         </svg>
                     </h5>
                     <p class="card-text">Access all your custom info!</p>
+                </div>
+                <div class="card-footer border border-0" style="background-color: white;">
                     <a href="#" class="underline">Login</a>
                 </div>
             </div>
@@ -47,6 +50,8 @@
                         </svg>
                     </h5>
                     <p class="card-text">See a sample recipe for many different diets!</p>
+                </div>
+                <div class="card-footer border border-0" style="background-color: white;">
                     <a href="#menu" class="underline">See the menu</a>
                 </div>
             </div>
@@ -56,15 +61,15 @@
         <!-- Menu Recipe Section -->
         <div class="row d-flex justify-content-center" id="menu">
             <h3>The Menu</h3>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
-                <div class="card-body rounded-bottom">
+                <div class="card-body rounded-bottom leftCard">
                     <h5 class="card-title">Matthew's Pick</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Maikel's Pick</h5>
@@ -72,7 +77,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Hector's Pick</h5>
@@ -80,7 +85,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div id="random" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Random Recipe</h5>
@@ -88,7 +93,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div id="lowCarb" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Low Carb Recipe</h5>
@@ -96,7 +101,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div id="keto" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Keto Recipe</h5>
@@ -104,7 +109,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div id="vegetarian" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Vegetarian Recipe</h5>
@@ -112,7 +117,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div id="vegan" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Vegan Recipe</h5>
@@ -120,7 +125,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div id="lowFat" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Low Fat Recipe</h5>
@@ -128,7 +133,7 @@
                     <a href="#" class="underline">See Nutrients</a>
                 </div>
             </div>
-            <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0">
+            <div id="glutenFree" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
                 <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
                 <div class="card-body rounded-bottom">
                     <h5 class="card-title">Gluten Free Recipe</h5>
@@ -140,9 +145,9 @@
         <p>Don't forget to use the <a href="https://weightlosscalculator-bcc0d.web.app/" target="_blank">Weight Loss Calculator</a> to get your recommended macro-nutrients for weight loss!</p>
         <hr class="rounded my-5">
 
+
         <!-- Profile Page -->
         <p>To be included in the profile page:</p>
-
 
         <!-- Macro Profile Card -->
         <div class="row">
@@ -237,8 +242,9 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="Foody.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="Foody.js"></script>
+    </div>
 </body>
 </html>

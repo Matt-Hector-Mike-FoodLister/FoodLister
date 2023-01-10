@@ -15,23 +15,20 @@
                         The Menu
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Random</a></li>
-                        <li><a class="dropdown-item" href="#">Low Carb</a></li>
-                        <li><a class="dropdown-item" href="#">Keto</a></li>
-                        <li><a class="dropdown-item" href="#">Vegetarian</a></li>
-                        <li><a class="dropdown-item" href="#">Vegan</a></li>
-                        <li><a class="dropdown-item" href="#">Low Fat</a></li>
-                        <li><a class="dropdown-item" href="#">Gluten Free</a></li>
-
+                        <li><a class="dropdown-item" href="#random">Random</a></li>
+                        <li><a class="dropdown-item" href="#lowCarb">Low Carb</a></li>
+                        <li><a class="dropdown-item" href="#keto">Keto</a></li>
+                        <li><a class="dropdown-item" href="#vegetarian">Vegetarian</a></li>
+                        <li><a class="dropdown-item" href="#vegan">Vegan</a></li>
+                        <li><a class="dropdown-item" href="#lowFat">Low Fat</a></li>
+                        <li><a class="dropdown-item" href="#glutenFree">Gluten Free</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Search</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" aria-current="page" href="#">Find Recipes</a>
                 </li>
             </ul>
+            <a class="navbar-brand" href="#">Login</a>
         </div>
     </div>
 </nav>

@@ -1,5 +1,6 @@
 body {
-    background-image: url("/img/bg.jpeg")
+    background-image: url("/img/bg.jpeg");
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -7,35 +8,47 @@ body {
     height: 100%;
 }
 
-
-/*.btn {*/
-/*    background-color: #F3533A*/
-/*}*/
 .underline {
-    color: inherit;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #F3533A;
+    transition: .5s;
 }
 
-.underline {
-    background:
-            linear-gradient(
-                    to right,
-                    #8AD879,
-                    #8AD879
-            ),
-            linear-gradient(
-                    to right,
-                    #F3533A,
-                    #FA9F42,
-                    #5ACFC9);
-            );
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
+.underline:hover {
+    color: #F3533A;
 }
 
-a:hover {
+.navLinks:hover {
     background-size: 0 3px, 100% 3px;
 }
 
+.navLinks {
+    color: #18272F;
+    position: relative;
+    text-decoration: none;
+}
+
+.navLinks::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.navLinks:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.grad {
+    background-image: linear-gradient(180deg, #8AD879, #5ACFC9);
+
+}
