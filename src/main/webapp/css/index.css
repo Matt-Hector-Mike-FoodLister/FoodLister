@@ -1,64 +1,10 @@
 body {
     background-image: url("/img/bg.jpeg");
 
-    height: 100%;
-}
-
-/*.container {*/
-/*    background-color: white;*/
-/*    height: 100%;*/
-/*}*/
-
-/*.btn {*/
-/*    background-color: #F3533A*/
-/*}*/
 .underline {
-    color: inherit;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #F3533A;
+    transition: .5s;
 }
-
-.underline {
-    background:
-            linear-gradient(
-                    to right,
-                    #8AD879,
-                    #8AD879
-            ),
-            linear-gradient(
-                    to right,
-                    #F3533A,
-                    #FA9F42,
-                    #5ACFC9);
-            );
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
-}
-
-/*a:hover {*/
-/*    background-size: 0 3px, 100% 3px;*/
-/*}*/
-
-.backg {
-    background-color: lightgreen;
-    height: 100%;
-    justify-content: center;
-    align-content: center;
-
-
-}
-
-form {
-    background-color: lightgreen;
-
-    margin: auto;
-
-}
-
-
-
-
-
-
 
