@@ -14,6 +14,11 @@
 
 <div class="container text-center bg-success" style="height: auto;">
     <h1 class="text-center pt-5">Welcome to the FoodLister Meal Planner!</h1>
+    <button onclick="myFunction()">Click Me</button>
+
+    <div id="myDIV">
+        This is my DIV element.
+    </div>
 
     <!-- Options Section -->
     <div class="row d-flex justify-content-center">
