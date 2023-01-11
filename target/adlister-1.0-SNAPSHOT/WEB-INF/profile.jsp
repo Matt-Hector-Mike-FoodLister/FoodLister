@@ -7,7 +7,7 @@
     <link href="/css/cards.css" rel="stylesheet">
 </head>
 <body>
-    <jsp:include page="/WEB-INF/partials/navbar.jsp" />
+    <jsp:include page="/WEB-INF/partials/loggedInNavbar.jsp" />
 
     <div class="container">
     <div class="back">

@@ -6,7 +6,7 @@
     <style>body {background-image: url("/img/bg.jpeg")}</style>
 </head>
 <body>
-    <jsp:include page="/WEB-INF/partials/navbar.jsp" />
+    <jsp:include page="/WEB-INF/partials/logInNavbar.jsp" />
 
 
 <section class="vh-100 gradient-custom">

@@ -15,7 +15,7 @@
             </style>
 </head>
 <body>
-    <jsp:include page="partials/navbar.jsp" />
+    <jsp:include page="partials/registerNavbar.jsp" />
 
 
 
