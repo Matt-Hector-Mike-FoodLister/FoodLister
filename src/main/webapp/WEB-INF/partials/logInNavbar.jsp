@@ -10,6 +10,8 @@
           <a class="nav-link active" aria-current="page" href="http://localhost:8081/"> | Home</a>
         </li>
       </ul>
+      <a class="navbar-brand" href="/login">Login</a>
+      <a class="navbar-brand" href="/logout">Logout</a>
     </div>
   </div>
 </nav>

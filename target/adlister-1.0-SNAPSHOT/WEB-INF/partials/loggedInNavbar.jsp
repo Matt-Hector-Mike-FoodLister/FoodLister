@@ -13,7 +13,8 @@
           <a class="nav-link" aria-current="page" href="/ads/create">Find Recipes</a>
         </li>
       </ul>
-      <a class="navbar-brand" href="/logout">Logout</a>
-    </div>
+
+      <a class="navbar-brand" href="/login">Login</a>
+      <a class="navbar-brand" href="/logout">Logout</a>    </div>
   </div>
 </nav>

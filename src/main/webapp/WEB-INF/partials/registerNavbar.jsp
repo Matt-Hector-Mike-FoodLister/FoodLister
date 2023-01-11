@@ -11,6 +11,7 @@
         </li>
       </ul>
       <a class="navbar-brand" href="/login">Login</a>
+      <a class="navbar-brand" href="/logout">Logout</a>
     </div>
   </div>
 </nav>
