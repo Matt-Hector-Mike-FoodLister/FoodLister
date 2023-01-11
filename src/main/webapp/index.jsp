@@ -98,19 +98,27 @@
             </div>
         </div>
         <div id="random" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="/img/orange.jpeg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
                 <h5 class="card-title"><b>Random Recipe</b></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="underline">See More</a>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Healthy Orange Chicken</h5></li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 440 | Fat: 8 | Carbohydrates: 33 | Protein: 52 |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> chicken breast | vegetable oil | orange juice | rice vinegar | rice wine | soy sauce | chili sauce | garlic | brown sugar | orange zest | green onions | water | corn starch | salt and pepper | white rice |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                </ul>
             </div>
         </div>
         <div id="lowCarb" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="/img/lowcarb.jpeg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
                 <h5 class="card-title"><b>Low Carb Recipe</b></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="underline">See More</a>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Brunch Burger</h5></li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 1028 | Fat: 82 | Carbohydrates: 17 | Protein: 53 |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> avocado | bacon | cumin | eggs | garlic powder | ground beef |onion powder | bell pepper | sharp cheddar | tabasco sauce | worcestershire sauce | salt |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                </ul>
             </div>
         </div>
         <div id="keto" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">

@@ -20,7 +20,6 @@
                         <li><a class="dropdown-item" href="#vegetarian">Vegetarian</a></li>
                         <li><a class="dropdown-item" href="#vegan">Vegan</a></li>
                         <li><a class="dropdown-item" href="#lowFat">Low Fat</a></li>
-                        <li><a class="dropdown-item" href="#glutenFree">Gluten Free</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
