@@ -26,7 +26,7 @@
                 <p class="card-text">Register to store all your favorite meals!</p>
             </div>
             <div class="card-footer border border-0" style="background-color: white;">
-                <a href="#" class="underline">Create Profile</a>
+                <a href="/register" class="underline">Create Profile</a>
             </div>
         </div>
         <div class="card col-3 m-3">
@@ -39,7 +39,7 @@
                 <p class="card-text">Access all your custom info!</p>
             </div>
             <div class="card-footer border border-0" style="background-color: white;">
-                <a href="#" class="underline">Login</a>
+                <a href="/login" class="underline">Login</a>
             </div>
         </div>
         <div class="card col-3 m-3">
@@ -62,18 +62,21 @@
     <div class="row d-flex justify-content-center" id="menu">
         <h3>The Menu</h3>
         <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="https://spoonacular.com/recipeImages/Chicken-Cordon-Bleu-With-Mushroom-Sauce-638038.jpg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom leftCard">
                 <h5 class="card-title">Matthew's Pick</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title text-primary">Chicken Cordon Bleu With Mushroom Sauce</h5>
+                <p class="card-text"><u>Nutrition:</u> Calories: 662.1 | Fat: 34.98 | Carbohydrates: 15.21 | Alcohol: 1.55 | <u>Ingredients:</u> butter | chicken breasts | chicken broth | cooking oil | flour | fresh parsley | garlic | gruyere cheese | half n half | ham | mushrooms | onion | panko bread crumbs | salt | tarragon | white wine |</p>
                 <a href="#" class="underline">See Nutrients</a>
             </div>
         </div>
         <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="https://spoonacular.com/recipeImages/Braised-Lamb-Chops-635834.jpg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
                 <h5 class="card-title">Maikel's Pick</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title text-danger">Braised Lamb Chops</h5>
+                <p class="card-text"><u>Nutrition:</u> Calories: 345.74 | Fat: 12.13 | Carbohydrates: 12.88 | Protein: 44.2 |
+               <u>Ingredients:</u> lamb chops | mint leaves | mustard | bell pepper | pineapple juice | soy sauce | vinegar | water |</p>
                 <a href="#" class="underline">See Nutrients</a>
             </div>
         </div>
