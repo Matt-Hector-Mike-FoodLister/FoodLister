@@ -1,64 +1,55 @@
+
 body {
     background-image: url("/img/bg.jpeg");
+    font-family: 'Poppins', sans-serif;
+}
 
+.container {
+    background-color: #FAF9F6;
     height: 100%;
 }
 
-/*.container {*/
-/*    background-color: white;*/
-/*    height: 100%;*/
-/*}*/
-
-/*.btn {*/
-/*    background-color: #F3533A*/
-/*}*/
 .underline {
-    color: inherit;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #F3533A;
+    transition: .5s;
+}
+
+.underline:hover {
+    color: #F3533A;
+}
+
+.navLinks:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.navLinks {
+    color: #18272F;
+    position: relative;
     text-decoration: none;
 }
 
-.underline {
-    background:
-            linear-gradient(
-                    to right,
-                    #8AD879,
-                    #8AD879
-            ),
-            linear-gradient(
-                    to right,
-                    #F3533A,
-                    #FA9F42,
-                    #5ACFC9);
-            );
-    background-size: 100% 3px, 0 3px;
-    background-position: 100% 100%, 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 400ms;
+.navLinks::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #18272F;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
 }
 
-/*a:hover {*/
-/*    background-size: 0 3px, 100% 3px;*/
-/*}*/
-
-.backg {
-    background-color: lightgreen;
-    height: 100%;
-    justify-content: center;
-    align-content: center;
-
-
+.navLinks:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
 }
 
-form {
-    background-color: lightgreen;
-
-    margin: auto;
+.grad {
+    background-image: linear-gradient(180deg, #8AD879, #5ACFC9);
 
 }
-
-
-
-
-
-
-
