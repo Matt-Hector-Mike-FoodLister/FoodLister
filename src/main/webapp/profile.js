@@ -1,4 +1,4 @@
-let key =  "87ed2c6f01764209ad3d9dbbcb12efc8";
+let key =  "b2fab4d4eca445ee9f8a19e8a208fc73";
 let array = []
 let html = ""
 document.querySelectorAll(".nutrition").forEach((x) => {

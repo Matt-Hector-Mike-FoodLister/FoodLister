@@ -77,4 +77,18 @@ public class MySQLAdsDao implements Ads {
         }
         return ads;
     }
+
+    public void deleteAd(String title) {
+        PreparedStatement stmt = null;
+        System.out.println(title);
+        try {
+            stmt = connection.prepareStatement("DELETE FROM ads where title = ?", Statement.RETURN_GENERATED_KEYS);
+            stmt.setString(1, title);
+            stmt.executeUpdate();
+            ResultSet rs = stmt.getGeneratedKeys();
+            rs.next();
+        } catch (SQLException e) {
+            throw new RuntimeException("Error retrieving all ads.", e);
+        }
+    }
 }

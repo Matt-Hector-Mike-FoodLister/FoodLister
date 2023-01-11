@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="http://localhost:8081/">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -24,10 +24,11 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Find Recipes</a>
+                    <a class="nav-link" aria-current="page" href="/ads/create">Find Recipes</a>
                 </li>
             </ul>
-            <a class="navbar-brand" href="#">Login</a>
+            <a class="navbar-brand" href="/login">Login</a>
+            <a class="navbar-brand" href="/logout">Logout</a>
         </div>
     </div>
 </nav>
