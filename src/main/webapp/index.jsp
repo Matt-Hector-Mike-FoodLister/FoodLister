@@ -7,12 +7,10 @@
     <jsp:include page="/WEB-INF/partials/head.jsp">
         <jsp:param name="title" value="Welcome to my site!" />
     </jsp:include>
-
-
 </head>
+
 <body>
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
-
 
 <div class="container text-center" style="height: auto;">
     <h1 class="text-center pt-5">Welcome to the FoodLister Meal Planner!</h1>
