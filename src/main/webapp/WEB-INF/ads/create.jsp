@@ -3,7 +3,7 @@
 <head>
 
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
- <link href="/css/cards.css" rel="stylesheet"
+ <link href="/css/cards.css" rel="stylesheet">
 
 
 
@@ -14,8 +14,8 @@
 
 <div>
 
-    <h2 class="text-primary">Your Ingredients: </h2>
-    <h2 id="lists" class="text-primary"></h2>
+    <h2 class="text-white">Your Ingredients: </h2>
+    <h2 id="lists" class="text-white"></h2>
     <label for="ingred"></label>
                  <input type="text" name="ingredients" id="ingred" list="ingredients">
                  <label for="submit"></label>

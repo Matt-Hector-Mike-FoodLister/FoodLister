@@ -9,6 +9,9 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="http://localhost:8081/"> | Home</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/ads/create">Find Recipes</a>
+        </li>
       </ul>
       <a class="navbar-brand" href="/logout">Logout</a>
     </div>
