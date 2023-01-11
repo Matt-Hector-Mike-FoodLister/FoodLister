@@ -78,10 +78,15 @@
             </div>
         </div>
         <div class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="/img/hector's_pick.jpeg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
-                <h5 class="card-title">Hector's Pick</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title"><b>Hector's Pick:</b></h5>
+                <h5 class="card-subtitle" style="color: #F3533A">Spiked Watermelon lemonade</h5>
+                <p class="card-text">
+                    <u>Nutrition:</u>
+                     Calories: 246.18 | Fat: 0.45 | Carbohydrates: 41.19 | Alcohol: 12.63 |
+                    <u>Ingredients:</u>
+                     Sugar | water | mint | lemon juice | watermelon | gin |</p>
                 <a href="#" class="underline">See Nutrients</a>
             </div>
         </div>
