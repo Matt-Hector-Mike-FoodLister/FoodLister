@@ -134,27 +134,39 @@
             </div>
         </div>
         <div id="vegetarian" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="/img/guac.jpeg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
                 <h5 class="card-title"><b>Vegetarian Recipe</b></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="underline">See More</a>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Guacamole</h5></li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 166 | Fat: 14 | Carbohydrates: 10 | Protein: 2 |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>haas avocados | onion  | jalapeno pepper | fresh cilantro | salt | black pepper | fresh lime juice  | fresh basil | fresh oregano |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                </ul>
             </div>
         </div>
         <div id="vegan" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="/img/vegan.jpeg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
                 <h5 class="card-title"><b>Vegan Recipe</b></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="underline">See More</a>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Chocolate Covered Cookie Dough</h5></li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 145 | Fat: 11 | Carbohydrates: 13 | Protein: 2 |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>maple syrup | coconut oil  | vanilla extract | kosher salt | vegan chocolate chips | baking chocolate |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                </ul>
             </div>
         </div>
         <div id="lowFat" class="card col-sm-12 col-md-5 col-lg-3 m-3 my-4 p-0 shadow border border-0 grad">
-            <img src="/img/food_ex.jpeg" class="card-img-top" alt="...">
+            <img src="/img/lowfat.jpeg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
                 <h5 class="card-title"><b>Low Fat Recipe</b></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="underline">See More</a>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Oatmeal Banana Bread</h5></li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 188 | Fat: 2 | Carbohydrates: 37 | Protein: 4 |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>baking powder | baking soda  | bananas | brown sugar | cinnamon | egg | egg whites  | flour | old fashioned oats | salt |</li>
+                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                </ul>
             </div>
         </div>
     </div>
