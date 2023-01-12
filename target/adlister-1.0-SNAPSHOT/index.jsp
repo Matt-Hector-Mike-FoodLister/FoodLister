@@ -16,12 +16,6 @@
     <h1 class="text-center pt-5">Welcome to the FoodLister Meal Planner!</h1>
 
 
-    <button onclick="myFunction()">Click Me</button>
-
-    <div id="myDIV">
-        This is my DIV element.
-    </div>
-
     <!-- Options Section -->
     <div class="row d-flex justify-content-center">
         <div class="card col-3 m-3">
@@ -72,7 +66,7 @@
             <img src="https://spoonacular.com/recipeImages/Chicken-Cordon-Bleu-With-Mushroom-Sauce-638038.jpg" class="card-img-top" alt="...">
             <div class="card-body rounded-bottom">
                 <h5 class="card-title"><b>Matthew's Pick</b></h5>
-                <ul class="list-group list-group-flush">
+                <ul id="myDiv" class="list-group list-group-flush" onclick="myFunction()">
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Chicken Cordon Bleu With Mushroom Sauce</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 662.1 | Fat: 34.98 | Carbohydrates: 15.21 | Alcohol: 1.55 | </li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> butter | chicken breasts | chicken broth | cooking oil | flour | fresh parsley | garlic | gruyere cheese | half n half | ham | mushrooms | onion | panko bread crumbs | salt | tarragon | white wine |</p></li>
