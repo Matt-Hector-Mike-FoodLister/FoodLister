@@ -1,5 +1,6 @@
 package com.codeup.adlister.controllers;
 
+import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -8,30 +9,25 @@ import java.io.IOException;
 import java.util.List;
 
 
+import com.codeup.adlister.dao.DaoFactory;
 import com.codeup.adlister.util.Converter;
 import com.codeup.adlister.util.Getter;
 import org.json.*;
 
-@WebServlet(name = "HelloWorldServlet", urlPatterns = "/hello")
+@WebServlet(name = "HelloWorldServlet", urlPatterns = "")
 public class HelloWorldServlet extends HttpServlet {
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-
-        Getter getter = new Getter();
-        try {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 
 
-            Converter recipe = getter.returned();
-            System.out.println(recipe.getImageURL());
-            request.setAttribute("recipe", recipe);
-            request.getRequestDispatcher("/WEB-INF/hello.jsp").forward(request, response);
-
-
-            response.getWriter().println("<h1>Hello, World!</h1>");
-
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        request.getRequestDispatcher("/index.jsp").forward(request, response);
+    }
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        System.out.println("asdfsf");
+       int id = Integer.parseInt(request.getParameter("id"));
+        System.out.println(id);
+       request.getSession().setAttribute("id", DaoFactory.getAdsDao().all(id));
+       response.sendRedirect("/viewer");
 
     }
 }

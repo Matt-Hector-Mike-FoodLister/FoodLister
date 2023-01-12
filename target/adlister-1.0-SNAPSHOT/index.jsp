@@ -106,7 +106,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Healthy Orange Chicken</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 440 | Fat: 8 | Carbohydrates: 33 | Protein: 52 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> chicken breast | vegetable oil | orange juice | rice vinegar | rice wine | soy sauce | chili sauce | garlic | brown sugar | orange zest | green onions | water | corn starch | salt and pepper | white rice |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                      <form action="" method="post">
+                                        <button type="submit" class="underline" value="31" name="id">See More</button></li>
+                                        </form></li>
                 </ul>
             </div>
         </div>
@@ -118,7 +121,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Brunch Burger</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 1028 | Fat: 82 | Carbohydrates: 17 | Protein: 53 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> avocado | bacon | cumin | eggs | garlic powder | ground beef |onion powder | bell pepper | sharp cheddar | tabasco sauce | worcestershire sauce | salt |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                    <form action="" method="post">
+                    <button type="submit" class="underline" value="28" name="id">See More</button></li>
+                    </form>
                 </ul>
             </div>
         </div>
@@ -130,7 +136,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Cauliflower Mac and Cheese</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 279 | Fat: 23.9 | Carbohydrates: 8.1 | Protein: 10.4 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>Cauliflower | Olive Oil  | Salt & Pepper | Shredded Sharp Cheddar Cheese | Heavy Cream |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                    <form action="" method="post">
+                        <button type="submit" class="underline" value="29" name="id">See More</button></li>
+                      </form></li>
                 </ul>
             </div>
         </div>
@@ -142,7 +151,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Guacamole</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 166 | Fat: 14 | Carbohydrates: 10 | Protein: 2 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>haas avocados | onion  | jalapeno pepper | fresh cilantro | salt | black pepper | fresh lime juice  | fresh basil | fresh oregano |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                      <form action="" method="post">
+                                        <button type="submit" class="underline" value="30" name="id">See More</button></li>
+                                        </form></li>
                 </ul>
             </div>
         </div>
@@ -154,7 +166,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Chocolate Covered Cookie Dough</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 145 | Fat: 11 | Carbohydrates: 13 | Protein: 2 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>maple syrup | coconut oil  | vanilla extract | kosher salt | vegan chocolate chips | baking chocolate |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                      <form action="" method="post">
+                                        <button type="submit" class="underline" value="31" name="id">See More</button></li>
+                                        </form></li>
                 </ul>
             </div>
         </div>
@@ -166,7 +181,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Oatmeal Banana Bread</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 188 | Fat: 2 | Carbohydrates: 37 | Protein: 4 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>baking powder | baking soda  | bananas | brown sugar | cinnamon | egg | egg whites  | flour | old fashioned oats | salt |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                      <form action="" method="post">
+                                        <button type="submit" class="underline" value="32" name="id">See More</button></li>
+                                        </form></li>
                 </ul>
             </div>
         </div>
