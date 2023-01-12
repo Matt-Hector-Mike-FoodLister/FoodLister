@@ -19,8 +19,8 @@
     <label for="ingred"></label>
                  <input type="text" name="ingredients" id="ingred" list="ingredients">
                  <label for="submit"></label>
-                 <input type="button" value="Submit" id="submit">
-
+                 <input type="button" class="bg-success text-white"  value="Submit" id="submit">
+                 <input type="button" class="bg-success text-white"  value="Redo" id="redo">
              <datalist id="ingredients">
 
              </datalist>

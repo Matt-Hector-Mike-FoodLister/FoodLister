@@ -25,38 +25,38 @@
             <div class="col-12 col-md-9 col-lg-7 col-xl-6">
               <div class="card bg-success" style="border-radius: 15px;">
                 <div class="card-body p-5">
-                  <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+                  <h2 class="text-uppercase text-center mb-5 text-white">Create an account</h2>
 
                   <form action="/register" method="post" class="bg-success">
 
                     <div class="form-outline mb-4">
                       <input type="text" id="form3Example1cg" class="form-control form-control-lg" name="username" />
-                      <label class="form-label" for="form3Example1cg">Your Name</label>
+                      <label class="form-label text-white" for="form3Example1cg">Your Name</label>
                     </div>
 
                     <div class="form-outline mb-4">
                       <input type="email" id="form3Example3cg" class="form-control form-control-lg" name="email"/>
-                      <label class="form-label" for="form3Example3cg">Your Email</label>
+                      <label class="form-label text-white" for="form3Example3cg">Your Email</label>
                     </div>
 
                     <div class="form-outline mb-4">
                       <input type="password" id="form3Example4cg" class="form-control form-control-lg" name="password" />
-                      <label class="form-label" for="form3Example4cg">Password</label>
+                      <label class="form-label text-white" for="form3Example4cg">Password</label>
                     </div>
 
                     <div class="form-outline mb-4">
                       <input type="password" id="form3Example4cdg" class="form-control form-control-lg" name="confirm_password"/>
-                      <label class="form-label" for="form3Example4cdg">Repeat your password</label>
+                      <label class="form-label text-white" for="form3Example4cdg">Repeat your password</label>
                     </div>
 
 
 
                     <div class="d-flex justify-content-center">
                       <button type="submit"
-                        class="btn btn-primary btn-block btn-lg gradient-custom-4 text-body" id="register">Register</button>
+                        class="btn btn-success btn-block btn-lg gradient-custom-4 text-body btn-outline-light text-white" id="register">Register</button>
                     </div>
 
-                    <p class="text-center mt-5 mb-0 texas">Have an account already? <a href="/login"
+                    <p class="text-center mt-5 mb-0 texas text-white">Have an account already? <a href="/login"
                         class="fw-bold text-body"><u>Login here</u></a></p>
 
                   </form>

@@ -1,5 +1,5 @@
 "use strict"
-let key =  "83cd305e15604385bcd519a7f1cceb77";
+let key =  "c86d0e54f9c74df389538a088bb6f703";
 let keys = "";
 let ingredient;
 let ingredArray = [];
@@ -33,15 +33,19 @@ document.getElementById("ingred").addEventListener("keyup", function (e) {
 })
 nutrients();
 
+//reload the session to remove ingredients
+document.getElementById("redo").addEventListener("click", function () {
+    location.reload()
+})
 
 // eventlistener for search recipes by ingredients
 document.getElementById("submit").addEventListener("click", function () {
-    let search = document.querySelector("#ingred").value;
-    if (search !== "") {
+    let search = document.querySelector("#ingred");
+    if (search.value !== "") {
         document.getElementById("lists").innerText = ""
-        ingredArray.push(search)
+        ingredArray.push(search.value)
         document.getElementById("lists").innerText = ingredArray.toString()
-        search = "";
+        search.value = "";
         keys = "";
         document.getElementById("nutrition").innerText = ""
         recipesByIngredients()
@@ -58,18 +62,18 @@ function recipesByIngredients() {
     if (ingredArray.length !== 0) {
 
 
-    fetch(`https://api.spoonacular.com/recipes/search?apiKey=${key}&number=8&query=${ingredArray.toString()}`)
-        .then(response => response.json())
-        .then(response => {
-            console.log(response);
+        fetch(`https://api.spoonacular.com/recipes/search?apiKey=${key}&number=8&query=${ingredArray.toString()}`)
+            .then(response => response.json())
+            .then(response => {
+                console.log(response);
 
-            document.getElementById("pics").innerHTML = "";
+                document.getElementById("pics").innerHTML = "";
 
-            let num = response.results.length;
+                let num = response.results.length;
 
-            for (let i = 0; i < num; i++) {
+                for (let i = 0; i < num; i++) {
 
-                let url =  response.baseUri + response.results[i].image
+                    let url =  response.baseUri + response.results[i].image
 
                     let html =
 
@@ -86,45 +90,45 @@ function recipesByIngredients() {
 
 
 
-                document.getElementById("pics").innerHTML += html
+                    document.getElementById("pics").innerHTML += html
 
 
 
-            }
+                }
 
 
 
-            document.querySelectorAll(".reddit").forEach(x => {
-                console.log(x);
-                x.addEventListener("click", function (e) {
+                document.querySelectorAll(".reddit").forEach(x => {
+                    console.log(x);
+                    x.addEventListener("click", function (e) {
 
-                    document.getElementById(x.previousElementSibling.id).innerText = ""
+                        document.getElementById(x.previousElementSibling.id).innerText = ""
 
 
 
-                    nuts(x.id)
-                    // location.assign("http://localhost:8080/hello")
+                        nuts(x.id)
+                        // location.assign("http://localhost:8080/hello")
+                    })
                 })
-            })
 
 
-            document.querySelectorAll(".add").forEach((x) => {
+                document.querySelectorAll(".add").forEach((x) => {
 
-                x.addEventListener("click", function (e) {
-                    let hidden = document.getElementById("hidden")
-
-
-                    hidden.value = x.getAttribute("idd")+ "<"+ x.getAttribute("title2") +"<"+x.getAttribute("image")
-                    document.getElementById("form").submit();
+                    x.addEventListener("click", function (e) {
+                        let hidden = document.getElementById("hidden")
 
 
+                        hidden.value = x.getAttribute("idd")+ "<"+ x.getAttribute("title2") +"<"+x.getAttribute("image")
+                        document.getElementById("form").submit();
 
+
+
+                    })
                 })
+
+
             })
-
-
-        })
-        .catch(err => console.error("thisdfsd" + err));
+            .catch(err => console.error("thisdfsd" + err));
     }
 }
 
@@ -146,12 +150,17 @@ function nuts(id) {
         .catch(err => console.error(err));
 }
 
-//See More Button Function
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+
+
+// fetch(`https://api.spoonacular.com/food/wine/dishes?wine=malbec&apiKey=${key}`)
+//     .then(response => response.json())
+//     .then(response => {
+//
+//
+//         console.log(response)
+//
+//     })
+//     .catch(err => console.error(err));
+
+
+
