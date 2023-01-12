@@ -140,10 +140,17 @@ function nuts(id) {
             document.getElementById(id).previousElementSibling.innerHTML = ""
 
             console.log(response)
+            document.getElementById(id).previousElementSibling.innerHTML += "Nutrition: "
             for (let i = 0; i < 9; i++) {
                 if (i === 0 | i === 1 | i === 3 | i === 8) {
                     document.getElementById(id).previousElementSibling.innerHTML += "  " + response.nutrition.nutrients[i].name + ": " + response.nutrition.nutrients[i].amount + "  |"
                 }
+            }
+            document.getElementById(id).previousElementSibling.innerHTML += "<br> Ingredients:"
+
+            for (let i = 0; i < response.nutrition.ingredients.length; i++) {
+
+                document.getElementById(id).previousElementSibling.innerHTML += "  " + response.nutrition.ingredients[i].name + "  |"
             }
 
         })

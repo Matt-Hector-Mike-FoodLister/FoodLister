@@ -70,7 +70,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Chicken Cordon Bleu With Mushroom Sauce</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 662.1 | Fat: 34.98 | Carbohydrates: 15.21 | Alcohol: 1.55 | </li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> butter | chicken breasts | chicken broth | cooking oil | flour | fresh parsley | garlic | gruyere cheese | half n half | ham | mushrooms | onion | panko bread crumbs | salt | tarragon | white wine |</p></li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                        <form action="" method="post">
+                                                            <button type="submit" class="bg-primary bg-outline-white" value="23" name="id">See More</button></li>
+                                                            </form></li></li>
                 </ul>
             </div>
         </div>
@@ -82,7 +85,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Braised Lamb Chops</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 345.74 | Fat: 12.13 | Carbohydrates: 12.88 | Protein: 44.2 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> lamb chops | mint leaves | mustard | bell pepper | pineapple juice | soy sauce | vinegar | water |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                        <form action="" method="post">
+                                                            <button type="submit" class="bg-primary bg-outline-white" value="25" name="id">See More</button></li>
+                                                            </form></li></li>
                 </ul>
             </div>
         </div>
@@ -94,7 +100,10 @@
                     <li class="list-group-item p-0 pb-4" style="background-color: transparent"><h5 class="card-subtitle" style="color: #F3533A">Spiked Watermelon Lemonade</h5></li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Nutrition:</u> Calories: 246 | Fat: 0.37 | Carbohydrates: 41 | Protein: 1 |</li>
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> sugar | water | mint | fresh lemon juice | watermelon | gin |</li>
-                    <li class="list-group-item p-0" style="background-color: transparent"><a href="#" class="underline">See More</a></li>
+                    <li class="list-group-item p-0" style="background-color: transparent">
+                        <form action="" method="post">
+                                                            <button type="submit" class="bg-primary bg-outline-white" value="24" name="id">See More</button></li>
+                                                            </form></li></li>
                 </ul>
             </div>
         </div>
@@ -108,7 +117,7 @@
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> chicken breast | vegetable oil | orange juice | rice vinegar | rice wine | soy sauce | chili sauce | garlic | brown sugar | orange zest | green onions | water | corn starch | salt and pepper | white rice |</li>
                     <li class="list-group-item p-0" style="background-color: transparent">
                       <form action="" method="post">
-                                        <button type="submit" class="underline" value="31" name="id">See More</button></li>
+                                        <button type="submit" class="bg-primary bg-outline-white" value="27" name="id">See More</button></li>
                                         </form></li>
                 </ul>
             </div>
@@ -123,7 +132,7 @@
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u> avocado | bacon | cumin | eggs | garlic powder | ground beef |onion powder | bell pepper | sharp cheddar | tabasco sauce | worcestershire sauce | salt |</li>
                     <li class="list-group-item p-0" style="background-color: transparent">
                     <form action="" method="post">
-                    <button type="submit" class="underline" value="28" name="id">See More</button></li>
+                    <button type="submit" class="bg-primary bg-outline-white" value="28" name="id">See More</button></li>
                     </form>
                 </ul>
             </div>
@@ -138,7 +147,7 @@
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>Cauliflower | Olive Oil  | Salt & Pepper | Shredded Sharp Cheddar Cheese | Heavy Cream |</li>
                     <li class="list-group-item p-0" style="background-color: transparent">
                     <form action="" method="post">
-                        <button type="submit" class="underline" value="29" name="id">See More</button></li>
+                        <button type="submit" class="bg-primary bg-outline-white" value="29" name="id">See More</button></li>
                       </form></li>
                 </ul>
             </div>
@@ -153,7 +162,7 @@
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>haas avocados | onion  | jalapeno pepper | fresh cilantro | salt | black pepper | fresh lime juice  | fresh basil | fresh oregano |</li>
                     <li class="list-group-item p-0" style="background-color: transparent">
                       <form action="" method="post">
-                                        <button type="submit" class="underline" value="30" name="id">See More</button></li>
+                                        <button type="submit" class="bg-primary bg-outline-white" value="30" name="id">See More</button></li>
                                         </form></li>
                 </ul>
             </div>
@@ -168,7 +177,7 @@
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>maple syrup | coconut oil  | vanilla extract | kosher salt | vegan chocolate chips | baking chocolate |</li>
                     <li class="list-group-item p-0" style="background-color: transparent">
                       <form action="" method="post">
-                                        <button type="submit" class="underline" value="31" name="id">See More</button></li>
+                                        <button type="submit" class="bg-primary bg-outline-white" value="31" name="id">See More</button></li>
                                         </form></li>
                 </ul>
             </div>
@@ -183,7 +192,7 @@
                     <li class="list-group-item p-0" style="background-color: transparent"><u>Ingredients:</u>baking powder | baking soda  | bananas | brown sugar | cinnamon | egg | egg whites  | flour | old fashioned oats | salt |</li>
                     <li class="list-group-item p-0" style="background-color: transparent">
                       <form action="" method="post">
-                                        <button type="submit" class="underline" value="32" name="id">See More</button></li>
+                                        <button type="submit" class="bg-primary bg-outline-white" value="32" name="id">See More</button></li>
                                         </form></li>
                 </ul>
             </div>

@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -23,11 +24,25 @@ public class HelloWorldServlet extends HttpServlet {
         request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        System.out.println("asdfsf");
+
        int id = Integer.parseInt(request.getParameter("id"));
-        System.out.println(id);
-       request.getSession().setAttribute("id", DaoFactory.getAdsDao().all(id));
-       response.sendRedirect("/viewer");
+
+        if (id == 27) {
+            ArrayList <Integer> rando = new ArrayList<>();
+            rando.add(28);
+            rando.add(29);
+            rando.add(30);
+            rando.add(31);
+            rando.add(32);
+            int o = (int) Math.floor(Math.random() * 5);
+            request.getSession().setAttribute("id", DaoFactory.getAdsDao().all(rando.get(o)));
+            response.sendRedirect("/viewer");
+
+        } else {
+            request.getSession().setAttribute("id", DaoFactory.getAdsDao().all(id));
+            response.sendRedirect("/viewer");
+        }
+
 
     }
 }
